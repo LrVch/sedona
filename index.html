@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sedona</title>
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="content">
+        <header class="header clearfix">
+            <div class="header-top-logo">
+                <a href="index.html"></a>
+            </div>
+            <nav class="main-navigation clearfix">
+                <a class="col s-20 active" href="index.html">информация</a>
+                <a class="col s-20" href="#">фото и видео</a>
+                <a class="col s-20" href="#">карта штата</a>
+                <a class="col s-20" href="#">гостиницы</a>
+            </nav>
+        </header>
+        <section class="main-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1200px" height="57px" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                <polygon fill="#fff" points="0,0 250,25 250,0 600,57 950,0 950,25 1200,0 1200,60 0,60" />
+            </svg>
+        </section>
+        <section>
+            <div class="description">
+                <h1 class="description-title">
+                  СЕДОНА — небольшой городок в АРИЗОНЕ, зАСЛУЖИвающий&nbsp;большего!
+               </h1>
+                <p>Рассмотрим 5 причин, по которым Седона круче чем гранд каньон!</p>
+            </div>
+        </section>
+        <section class="clearfix">
+            <div class="true-city col s-4">
+                <h2 class="true-city-title">НАСТОЯЩИЙ ГОРОДОК</h2>
+                <div>&#8212; №1 &#8212;</div>
+                <p>СЕДОНА НЕ АТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+            </div>
+            <figure class="true-city-image col s-8"></figure>
+        </section>
+        <section class="features clearfix">
+            <div class="features-home col s-4">
+                <h2>Жилье</h2>
+                <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+            </div>
+            <div class="features-meal col s-4">
+                <h2>Еда</h2>
+                <p>Всегда заказывай ФИРМЕННЫЙ БУРГЕР, Вы&nbsp;НЕ разочаруетесь</p>
+            </div>
+            <div class="features-souvenirs col s-4">
+                <h2>Сувениры</h2>
+                <p>Не только китайского, но&nbsp;и&nbsp;местного производства!</p>
+            </div>
+        </section>
+        <section class="clearfix">
+            <figure class="devil-image col s-8"></figure>
+            <div class="devil col s-4">
+                <h2 class="devil-title">ТАМ ЕСТЬ Мост&nbsp;дьявола</h2>
+                <div>&#8212; №2 &#8212;</div>
+                <p>Да, по нему можно пройти! Если&nbsp;конечно вы&nbsp;осмелитесь</p>
+            </div>
+        </section>
+        <section class="features-bottom clearfix">
+            <div class="features-bottom-area col s-4">
+                <h2 class="features-bottom-area-title">НЕБОЛЬШАЯ ПЛОЩАДЬ</h2>
+                <div>&#8212; №3 &#8212;</div>
+                <p>ВСЕ достопримеча&shy;тельности&nbsp;находятся очень близко</p>
+            </div>
+            <div class="features-bottom-road col s-4">
+                <h2 class="features-bottom-road-title">КРАСИВАЯ ДОРОГА</h2>
+                <div>&#8212; №4 &#8212;</div>
+                <p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-&nbsp;ВЕГАСА совсем НЕ&nbsp;СКУЧНО!</p>
+            </div>
+            <div class="features-bottom-tourist col s-4">
+                <h2 class="features-bottom-tourist-title">МАЛО ТУРИСТОВ</h2>
+                <div>&#8212; №5 &#8212;</div>
+                <p>Большинство едет в гранд каньон и толпится там</p>
+            </div>
+        </section>
+        <section class="interest">
+            <div class="interest-title">ЗАИНТЕРЕСОВАЛИСЬ?</div>
+            <p>Укажите предполагаемые даты поездки и&nbsp;мы&nbsp;покажем&nbsp;вам&nbsp;лучшие&nbsp;предложения&nbsp;гостиниц&nbsp;в&nbsp;седоне
+            </p>
+            <a href="#">ПОИСК ГОСТИНИЦЫ В седоне</a>
+        </section>
+        <section class="map" id="map"></section>
+        <footer class="footer clearfix">
+            <div class="footer-visit col s-4">
+                #visitSEDONA
+            </div>
+            <div class="footer-social col s-4">
+                <a href="#" class="social twit"><i class="icon-twitter"></i></a>
+                <a href="#" class="social fb"><i class="icon-facebook"></i></a> 
+                <a href="#" class="social youtube"><i class="icon-youtube"></i></a>
+            </div>
+            <div class="footer-copyright col s-4">
+                <span>WEBSITE by</span>
+                <a href="#"></a>
+            </div>
+        </footer>
+        <!-- form search -->
+        <div class="popup">
+            <form action="#" method="get">
+                <div class="popup-datein clearfix">
+                    <div class="popup-datein-title">дата заезда</div>
+                    <input type="date" name="datein" id="datein">
+                    <!--<label for="datein">выберите дату</label>-->
+                </div>
+                <div class="popup-dateout clearfix">
+                    <div class="popup-dateout-title">дата выезда</div>
+                    <input type="date" name="dateout" id="dateout" >
+                    <!-- <label for="dateout">выберите дату</label>-->
+                </div>
+                <div class="counters clearfix">
+                    <div class="counters-adult">
+                        взрослые:
+                        <div class="count clearfix">
+                            <i class="icon-minus"></i>
+                            <span class="adult-count"></span>
+                            <i class="icon-plus"></i>
+                        </div>
+                    </div>
+                    <div class="counters-child">
+                        дети:
+                        <div class="count clearfix">
+                            <i class="icon-minus"></i>
+                            <span class="child-count"></span>
+                            <i class="icon-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit">найти</button>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=OxYj0wnQmkJOHuBh9AkfiJ_bi1JtWDLG&amp;height=590&amp;id=map"></script>
+    <script src="js/script.min.js"></script>
+</body>
+
+</html>
